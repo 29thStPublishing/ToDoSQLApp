@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E074AA5D141D772000B1BB01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E074AA5C141D772000B1BB01 /* UIKit.framework */; };
+		E074AA5F141D772000B1BB01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E074AA5E141D772000B1BB01 /* Foundation.framework */; };
+		E074AA61141D772000B1BB01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E074AA60141D772000B1BB01 /* CoreGraphics.framework */; };
+		E074AA67141D772000B1BB01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E074AA65141D772000B1BB01 /* InfoPlist.strings */; };
+		E074AA6A141D772000B1BB01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E074AA69141D772000B1BB01 /* main.m */; };
+		E074AA6D141D772000B1BB01 /* ToDoSQLAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E074AA6C141D772000B1BB01 /* ToDoSQLAppAppDelegate.m */; };
+		E074AA70141D772000B1BB01 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E074AA6E141D772000B1BB01 /* MainWindow.xib */; };
+		E074AA73141D772000B1BB01 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E074AA72141D772000B1BB01 /* RootViewController.m */; };
+		E074AA76141D772100B1BB01 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E074AA74141D772100B1BB01 /* RootViewController.xib */; };
+		E074AA80141D7D2E00B1BB01 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E074AA7F141D7D2E00B1BB01 /* libsqlite3.0.dylib */; };
+		E074AA83141D971500B1BB01 /* Todo.m in Sources */ = {isa = PBXBuildFile; fileRef = E074AA82141D971500B1BB01 /* Todo.m */; };
+		E074AA86141D9DF400B1BB01 /* TodoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E074AA85141D9DF400B1BB01 /* TodoVC.m */; };
+		E08CC82D141DA3FD00AC1AA9 /* todo2.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E08CC82C141DA3FD00AC1AA9 /* todo2.sqlite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E074AA58141D772000B1BB01 /* ToDoSQLApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoSQLApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E074AA5C141D772000B1BB01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E074AA5E141D772000B1BB01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E074AA60141D772000B1BB01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E074AA64141D772000B1BB01 /* ToDoSQLApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoSQLApp-Info.plist"; sourceTree = "<group>"; };
+		E074AA66141D772000B1BB01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E074AA68141D772000B1BB01 /* ToDoSQLApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToDoSQLApp-Prefix.pch"; sourceTree = "<group>"; };
+		E074AA69141D772000B1BB01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E074AA6B141D772000B1BB01 /* ToDoSQLAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoSQLAppAppDelegate.h; sourceTree = "<group>"; };
+		E074AA6C141D772000B1BB01 /* ToDoSQLAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoSQLAppAppDelegate.m; sourceTree = "<group>"; };
+		E074AA6F141D772000B1BB01 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E074AA71141D772000B1BB01 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E074AA72141D772000B1BB01 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E074AA75141D772100B1BB01 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		E074AA7F141D7D2E00B1BB01 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		E074AA81141D971500B1BB01 /* Todo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Todo.h; sourceTree = "<group>"; };
+		E074AA82141D971500B1BB01 /* Todo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Todo.m; sourceTree = "<group>"; };
+		E074AA84141D9DF400B1BB01 /* TodoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoVC.h; sourceTree = "<group>"; };
+		E074AA85141D9DF400B1BB01 /* TodoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoVC.m; sourceTree = "<group>"; };
+		E08CC82C141DA3FD00AC1AA9 /* todo2.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = todo2.sqlite; path = ../../todo2.sqlite; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E074AA55141D772000B1BB01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E074AA80141D7D2E00B1BB01 /* libsqlite3.0.dylib in Frameworks */,
+				E074AA5D141D772000B1BB01 /* UIKit.framework in Frameworks */,
+				E074AA5F141D772000B1BB01 /* Foundation.framework in Frameworks */,
+				E074AA61141D772000B1BB01 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E074AA4D141D772000B1BB01 = {
+			isa = PBXGroup;
+			children = (
+				E074AA84141D9DF400B1BB01 /* TodoVC.h */,
+				E074AA85141D9DF400B1BB01 /* TodoVC.m */,
+				E074AA81141D971500B1BB01 /* Todo.h */,
+				E074AA82141D971500B1BB01 /* Todo.m */,
+				E074AA7F141D7D2E00B1BB01 /* libsqlite3.0.dylib */,
+				E074AA62141D772000B1BB01 /* ToDoSQLApp */,
+				E074AA5B141D772000B1BB01 /* Frameworks */,
+				E074AA59141D772000B1BB01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E074AA59141D772000B1BB01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E074AA58141D772000B1BB01 /* ToDoSQLApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E074AA5B141D772000B1BB01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E074AA5C141D772000B1BB01 /* UIKit.framework */,
+				E074AA5E141D772000B1BB01 /* Foundation.framework */,
+				E074AA60141D772000B1BB01 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E074AA62141D772000B1BB01 /* ToDoSQLApp */ = {
+			isa = PBXGroup;
+			children = (
+				E074AA7E141D7BAA00B1BB01 /* Resources */,
+				E074AA6B141D772000B1BB01 /* ToDoSQLAppAppDelegate.h */,
+				E074AA6C141D772000B1BB01 /* ToDoSQLAppAppDelegate.m */,
+				E074AA6E141D772000B1BB01 /* MainWindow.xib */,
+				E074AA71141D772000B1BB01 /* RootViewController.h */,
+				E074AA72141D772000B1BB01 /* RootViewController.m */,
+				E074AA74141D772100B1BB01 /* RootViewController.xib */,
+				E074AA63141D772000B1BB01 /* Supporting Files */,
+			);
+			path = ToDoSQLApp;
+			sourceTree = "<group>";
+		};
+		E074AA63141D772000B1BB01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E074AA64141D772000B1BB01 /* ToDoSQLApp-Info.plist */,
+				E074AA65141D772000B1BB01 /* InfoPlist.strings */,
+				E074AA68141D772000B1BB01 /* ToDoSQLApp-Prefix.pch */,
+				E074AA69141D772000B1BB01 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E074AA7E141D7BAA00B1BB01 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E08CC82C141DA3FD00AC1AA9 /* todo2.sqlite */,
+			);
+			name = Resources;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E074AA57141D772000B1BB01 /* ToDoSQLApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E074AA79141D772100B1BB01 /* Build configuration list for PBXNativeTarget "ToDoSQLApp" */;
+			buildPhases = (
+				E074AA54141D772000B1BB01 /* Sources */,
+				E074AA55141D772000B1BB01 /* Frameworks */,
+				E074AA56141D772000B1BB01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToDoSQLApp;
+			productName = ToDoSQLApp;
+			productReference = E074AA58141D772000B1BB01 /* ToDoSQLApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E074AA4F141D772000B1BB01 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E074AA52141D772000B1BB01 /* Build configuration list for PBXProject "ToDoSQLApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E074AA4D141D772000B1BB01;
+			productRefGroup = E074AA59141D772000B1BB01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E074AA57141D772000B1BB01 /* ToDoSQLApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E074AA56141D772000B1BB01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E074AA67141D772000B1BB01 /* InfoPlist.strings in Resources */,
+				E074AA70141D772000B1BB01 /* MainWindow.xib in Resources */,
+				E074AA76141D772100B1BB01 /* RootViewController.xib in Resources */,
+				E08CC82D141DA3FD00AC1AA9 /* todo2.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E074AA54141D772000B1BB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E074AA6A141D772000B1BB01 /* main.m in Sources */,
+				E074AA6D141D772000B1BB01 /* ToDoSQLAppAppDelegate.m in Sources */,
+				E074AA73141D772000B1BB01 /* RootViewController.m in Sources */,
+				E074AA83141D971500B1BB01 /* Todo.m in Sources */,
+				E074AA86141D9DF400B1BB01 /* TodoVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E074AA65141D772000B1BB01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E074AA66141D772000B1BB01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E074AA6E141D772000B1BB01 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E074AA6F141D772000B1BB01 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E074AA74141D772100B1BB01 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E074AA75141D772100B1BB01 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E074AA77141D772100B1BB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E074AA78141D772100B1BB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E074AA7A141D772100B1BB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToDoSQLApp/ToDoSQLApp-Prefix.pch";
+				INFOPLIST_FILE = "ToDoSQLApp/ToDoSQLApp-Info.plist";
+				New_Setting = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E074AA7B141D772100B1BB01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToDoSQLApp/ToDoSQLApp-Prefix.pch";
+				INFOPLIST_FILE = "ToDoSQLApp/ToDoSQLApp-Info.plist";
+				New_Setting = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E074AA52141D772000B1BB01 /* Build configuration list for PBXProject "ToDoSQLApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E074AA77141D772100B1BB01 /* Debug */,
+				E074AA78141D772100B1BB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E074AA79141D772100B1BB01 /* Build configuration list for PBXNativeTarget "ToDoSQLApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E074AA7A141D772100B1BB01 /* Debug */,
+				E074AA7B141D772100B1BB01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E074AA4F141D772000B1BB01 /* Project object */;
+}

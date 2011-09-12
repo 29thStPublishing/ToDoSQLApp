@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9618576F141E630400C31667 /* todo3.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 9618576E141E630400C31667 /* todo3.sqlite */; };
 		E074AA5D141D772000B1BB01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E074AA5C141D772000B1BB01 /* UIKit.framework */; };
 		E074AA5F141D772000B1BB01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E074AA5E141D772000B1BB01 /* Foundation.framework */; };
 		E074AA61141D772000B1BB01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E074AA60141D772000B1BB01 /* CoreGraphics.framework */; };
@@ -19,10 +20,10 @@
 		E074AA80141D7D2E00B1BB01 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E074AA7F141D7D2E00B1BB01 /* libsqlite3.0.dylib */; };
 		E074AA83141D971500B1BB01 /* Todo.m in Sources */ = {isa = PBXBuildFile; fileRef = E074AA82141D971500B1BB01 /* Todo.m */; };
 		E074AA86141D9DF400B1BB01 /* TodoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E074AA85141D9DF400B1BB01 /* TodoVC.m */; };
-		E08CC82D141DA3FD00AC1AA9 /* todo2.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = E08CC82C141DA3FD00AC1AA9 /* todo2.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9618576E141E630400C31667 /* todo3.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = todo3.sqlite; sourceTree = "<group>"; };
 		E074AA58141D772000B1BB01 /* ToDoSQLApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoSQLApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E074AA5C141D772000B1BB01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E074AA5E141D772000B1BB01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,7 +43,6 @@
 		E074AA82141D971500B1BB01 /* Todo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Todo.m; sourceTree = "<group>"; };
 		E074AA84141D9DF400B1BB01 /* TodoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoVC.h; sourceTree = "<group>"; };
 		E074AA85141D9DF400B1BB01 /* TodoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoVC.m; sourceTree = "<group>"; };
-		E08CC82C141DA3FD00AC1AA9 /* todo2.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = todo2.sqlite; path = ../../todo2.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +121,7 @@
 		E074AA7E141D7BAA00B1BB01 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E08CC82C141DA3FD00AC1AA9 /* todo2.sqlite */,
+				9618576E141E630400C31667 /* todo3.sqlite */,
 			);
 			name = Resources;
 			path = ..;
@@ -177,7 +177,7 @@
 				E074AA67141D772000B1BB01 /* InfoPlist.strings in Resources */,
 				E074AA70141D772000B1BB01 /* MainWindow.xib in Resources */,
 				E074AA76141D772100B1BB01 /* RootViewController.xib in Resources */,
-				E08CC82D141DA3FD00AC1AA9 /* todo2.sqlite in Resources */,
+				9618576F141E630400C31667 /* todo3.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

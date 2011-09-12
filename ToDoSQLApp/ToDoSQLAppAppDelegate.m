@@ -11,7 +11,7 @@
 #import "Todo.h"
 #import "TodoVC.h"
 
-#define DATABASE_NAME @"todo2.sqlite"
+#define DATABASE_NAME @"todo3.sqlite"
 
 
 
